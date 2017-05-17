@@ -105,8 +105,8 @@ INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VAL
 INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1239','GPS Accuracy','float','m',1,0,100);
 INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1010','GPS Altitude','float','m',1,0,100);
 INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff123b','GPS Bearing','float','&deg;',1,0,360);
-INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1006','GPS Latitude','float','&deg;',1,0,100);
-INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1005','GPS Longitude','float','&deg;',1,0,100);
+INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1006','GPS Latitude','double','&deg;',1,0,100);
+INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1005','GPS Longitude','double','&deg;',1,0,100);
 INSERT INTO torque_keys (id, description, type, populated, min, max) VALUES ('kff123a','GPS Satellites','float',1,0,10);
 INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1237','GPS vs OBD Speed Difference','float','km/h',1,0,10);
 INSERT INTO torque_keys (id, description, type,  units, populated, min, max) VALUES ('kff1226','Horsepower (At the Wheels)','float','hp',1,0,100);
