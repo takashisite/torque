@@ -110,6 +110,7 @@ mysqli_close($con);
             <select  id="type:<?php echo $keycol['id']; ?>" contenteditable="true">
               <!--<option value="boolean"<?php //if ($keycol['type'] == "boolean") echo ' selected'; ?>>boolean</option>-->
               <option value="float"<?php if ($keycol['type'] == "float") echo ' selected'; ?>>float</option>
+              <option value="double"<?php if ($keycol['type'] == "double") echo ' selected'; ?>>double</option>
               <option value="varchar(255)"<?php if ($keycol['type'] == "varchar(255)") echo ' selected'; ?>>varchar(255)</option>
             </selecT>
           </td>
